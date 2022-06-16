@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.a671b647.css",
+    "main.js": "/memory-card-game/static/js/main.a04ba1a4.js",
+    "static/media/Metalgreymon.png": "/memory-card-game/static/media/Metalgreymon.c364b5bcf113179dedfb.png",
+    "static/media/Tentomon.png": "/memory-card-game/static/media/Tentomon.a77376eabb05146a4e48.png",
+    "static/media/Kabuterimon.png": "/memory-card-game/static/media/Kabuterimon.0c8ccd644dce08f3d2e5.png",
+    "static/media/Zudomon.png": "/memory-card-game/static/media/Zudomon.97453ce410efcec91efb.png",
+    "static/media/Atlurkabuterimon.png": "/memory-card-game/static/media/Atlurkabuterimon.4460ed13baa214f95662.png",
+    "static/media/Garurumon.png": "/memory-card-game/static/media/Garurumon.8e57142b2fe2e3a738cc.png",
+    "static/media/Greymon.png": "/memory-card-game/static/media/Greymon.1a8b894ee7692f1ea5f9.png",
+    "static/media/Gomamon.png": "/memory-card-game/static/media/Gomamon.5369777018a4112faf7c.png",
+    "static/media/Gabumon.png": "/memory-card-game/static/media/Gabumon.2d9bb2a729cfaeed28ef.png",
+    "static/media/Lilimon.png": "/memory-card-game/static/media/Lilimon.ef5634c24c34bd71fe9a.png",
+    "static/media/Garudamon.png": "/memory-card-game/static/media/Garudamon.212df5105e6930ccbc4b.png",
+    "static/media/Birdramon.png": "/memory-card-game/static/media/Birdramon.7792de5f253df9ce0701.png",
+    "static/media/Ikkakumon.png": "/memory-card-game/static/media/Ikkakumon.3ca9cb4f0407514fa927.png",
+    "static/media/Palmon.png": "/memory-card-game/static/media/Palmon.f5e6b4bfbea6579b5c7c.png",
+    "static/media/Agumon.png": "/memory-card-game/static/media/Agumon.c4b1499e8fe6b1c1cbc8.png",
+    "static/media/Piyomon.png": "/memory-card-game/static/media/Piyomon.f8bc96d1be1d1d01d26f.png",
+    "static/media/Wargreymon.png": "/memory-card-game/static/media/Wargreymon.1e7542a6cfab3f48e1cf.png",
+    "static/media/Weregarurumon.png": "/memory-card-game/static/media/Weregarurumon.a5f562c008f80f730fc6.png",
+    "static/media/Metalgarurumon.png": "/memory-card-game/static/media/Metalgarurumon.e4afde70b3751818b0b7.png",
+    "static/media/Togemon.png": "/memory-card-game/static/media/Togemon.a0ed38f613f36424c1ac.png",
+    "index.html": "/memory-card-game/index.html",
+    "main.a671b647.css.map": "/memory-card-game/static/css/main.a671b647.css.map",
+    "main.a04ba1a4.js.map": "/memory-card-game/static/js/main.a04ba1a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a671b647.css",
+    "static/js/main.a04ba1a4.js"
+  ]
+}
