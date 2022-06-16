@@ -47,8 +47,8 @@ function MemoryCardGame() {
 function Scoreboard({ currentScore, bestScore }) {
   return (
     <div className="scoreboard">
-      <div>Current Score: {currentScore}</div>
-      <div>Best Score: {bestScore}</div>
+      <div>Score: {currentScore}</div>
+      <div>Best: {bestScore}</div>
     </div>
   );
 };
@@ -64,7 +64,9 @@ function Game({ incrementCurrentScore, resetCurrentScore }) {
   };
 
   const handleClickNextLevel = () => {
-    setLevel(level + 1);
+    if (level < LEVELS.length) {
+      setLevel(level + 1);
+    };
   };
 
   const handleClickReset = () => {
@@ -104,9 +106,10 @@ function Game({ incrementCurrentScore, resetCurrentScore }) {
   return (
     <div className="game">
       <LevelHeader level={level} />
-      <Gameboard digimons={levelDigimons} onClickCard={handleClickCard} />
       <button onClick={handleClickNextLevel}>Next Level</button>
-      <button onClick={handleClickReset}>Reset</button>
+      <br/>
+      <button onClick={handleClickReset}>Restart</button>
+      <Gameboard digimons={levelDigimons} onClickCard={handleClickCard} />
     </div>
   );
 };

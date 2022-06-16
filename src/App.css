@@ -1,35 +1,78 @@
-* {
+body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.gameboard {
+.App {
   display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: xxx-large;
+  letter-spacing: .3em;
+  text-decoration: underline;
+}
+
+.memory-card-game {
+  width: 80%;
+}
+
+.scoreboard {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.level-header {
+  font-size: larger;
+}
+
+.gameboard {
+  padding: 0;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .card-div {
-  width: 300px;
-  height: 300px;
+  min-width: 260px;
+  max-width: 300px;
+  aspect-ratio: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  outline: 2px dashed black;
+  outline: 3px solid black;
+  transition: transform .2s;
 }
 
 .card-div:hover {
-  /* zoom: 120%; */
-  /* background-color: crimson; */
+  cursor: pointer;
   outline: 5px solid black;
+  transform: scale(1.05);
 }
 
 .card-img {
-  /* width: 200px; */
   height: 200px;
 }
 
 .card-name {
   font-weight: bold;
   font-size: larger;
+}
+
+button {
+  font-family: inherit;
+  font-size: large;
+  font-weight: bold;
+  padding: 0.3rem 1rem;
+  border: 2px solid black;
+  color: black;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
 }
